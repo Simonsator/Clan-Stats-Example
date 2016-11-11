@@ -12,3 +12,5 @@
 hs_err_pid*
 
 Clan-Stats-Example.iml
+
+target/maven-archiver/pom.properties
