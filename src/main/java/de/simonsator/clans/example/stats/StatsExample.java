@@ -48,15 +48,16 @@ public class StatsExample extends Plugin implements ClanStat {
 	}
 
 	/**
-	 * This method gets executed when a player calls the command /clan stats <clan>
+	 * This method gets executed when a player calls the command /clan stats &lt;clan&gt;
 	 *
-	 * @param pSender The player who executed /clan stats
-	 * @param pClan   The clan of which the stats was requested (it c
+	 * @param pSender The player who executed /clan stats &lt;clan&gt;
+	 * @param pClan   The clan of which the stats was requested (it can be the clan
+	 *                in which the player is but it must not be the clan in which the player is it can also be another clan).
 	 */
 	public void stats(OnlinePAFPlayer pSender, Clan pClan) {
 		// Here belongs the code which should be executed when /clan stats is called.
 
-
+ 
 		// Gets the players who are in the clan and are online at the moment.
 		List<OnlinePAFPlayer> onlinePlayersOfTheClan = pClan.getAllOnlineClanPlayers();
 
