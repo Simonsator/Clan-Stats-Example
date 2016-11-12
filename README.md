@@ -31,3 +31,6 @@ To add Clans as an dependency of your maven project you need to add the followin
 ```
 ### How to add a clan-stat
 To see how you are adding a clan stat you should view this example class: https://github.com/Simonsator/Clan-Stats-Example/blob/master/src/main/java/de/simonsator/clans/example/stats/StatsExample.java.
+### JavaDoc of this example-plugin
+The JavaDoc of this plugin can be found here: http://simonsator.de/JavaDoc/Clan-Stats-Example/index.html.
+### 
