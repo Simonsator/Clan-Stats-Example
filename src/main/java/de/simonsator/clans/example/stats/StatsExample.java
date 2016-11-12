@@ -7,6 +7,8 @@ import de.simonsator.partyandfriends.clan.commands.ClanCommands;
 import de.simonsator.partyandfriends.clan.commands.subcommands.Stats;
 import net.md_5.bungee.api.plugin.Plugin;
 
+import java.util.List;
+
 /**
  * @author Simonsator
  * @version 1.0.0 11.11.16
@@ -55,7 +57,13 @@ public class StatsExample extends Plugin implements ClanStat {
 		// Here belongs the code which should be executed when /clan stats is called.
 
 
+		// Gets the players who are in the clan and are online at the moment.
+		List<OnlinePAFPlayer> onlinePlayersOfTheClan = pClan.getAllOnlineClanPlayers();
+
+		// Counts how many players are in the list.
+		int onlinePlayersOfTheClanCount = onlinePlayersOfTheClan.size();
+
 		// Sends a message to the player who used /clan stats and tells him how many people of this clan are online at the moment.
-		pSender.sendMessage("From this clan are " + pClan.getAllOnlineClanPlayers() + " members online.");
+		pSender.sendMessage("From this clan are " + onlinePlayersOfTheClanCount + " members online.");
 	}
 }
