@@ -62,8 +62,11 @@ public class StatsExample extends Plugin implements ClanStat {
 
 		// Counts how many players are in the list.
 		int onlinePlayersOfTheClanCount = onlinePlayersOfTheClan.size();
-
+		// Adds a split message
+		pSender.sendMessage("§7------------------------");
 		// Sends a message to the player who used /clan stats and tells him how many people of this clan are online at the moment.
-		pSender.sendMessage("From this clan are " + onlinePlayersOfTheClanCount + " members online.");
+		pSender.sendMessage("§7From this clan are " + onlinePlayersOfTheClanCount + " members online.");
+		// Adds a split message
+		pSender.sendMessage("§7------------------------");
 	}
 }
