@@ -1,0 +1,6 @@
+name: Stats-Example
+version: ${project.version}
+author: Simonsator
+depends: [Clans]
+main: de.simonsator.clans.example.stats.StatsExample
+description: An example to show how to use the API to add a clan-stat.
