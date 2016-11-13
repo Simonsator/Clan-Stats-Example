@@ -18,7 +18,7 @@ To add Clans as an dependency of your maven project you need to add the followin
 		<dependency>
 			<groupId>de.simonsator</groupId>
 			<artifactId>Clans</artifactId>
-			<version>0.9.8.15</version>
+			<version>0.9.8.16</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
