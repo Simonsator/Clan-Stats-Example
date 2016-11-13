@@ -57,17 +57,19 @@ public class StatsExample extends Plugin implements ClanStat {
 	public void stats(OnlinePAFPlayer pSender, Clan pClan) {
 		// Here belongs the code which should be executed when /clan stats is called.
 
- 
+
 		// Gets the players who are in the clan and are online at the moment.
 		List<OnlinePAFPlayer> onlinePlayersOfTheClan = pClan.getAllOnlineClanPlayers();
 
 		// Counts how many players are in the list.
 		int onlinePlayersOfTheClanCount = onlinePlayersOfTheClan.size();
-		// Adds a split message
-		pSender.sendMessage("§7------------------------");
+
 		// Sends a message to the player who used /clan stats and tells him how many people of this clan are online at the moment.
 		pSender.sendMessage("§7From this clan are " + onlinePlayersOfTheClanCount + " members online.");
-		// Adds a split message
-		pSender.sendMessage("§7------------------------");
+	}
+
+	@Override
+	public String getName() {
+		return "Example-Stats";
 	}
 }
