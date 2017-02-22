@@ -30,7 +30,7 @@ public class StatsExample extends Plugin implements ClanStat {
 	}
 
 	/**
-	 * onDisable method. In this method the Clan stat gets unregistered (must not be done onDisable)
+	 * onDisable method. In this method the Clan stat gets unregistered (optional)
 	 */
 	public void onDisable() {
 		// Gets the instance of the main clan command (/clan).
