@@ -18,13 +18,13 @@ To add Clans as an dependency of your maven project you need to add the followin
 		<dependency>
 			<groupId>de.simonsator</groupId>
 			<artifactId>Clans</artifactId>
-			<version>0.9.8.16</version>
+			<version>0.9.9.17</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>de.simonsator</groupId>
 			<artifactId>BungeecordPartyAndFriends</artifactId>
-			<version>1.0.45</version>
+			<version>1.0.79</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
