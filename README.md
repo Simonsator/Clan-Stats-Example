@@ -11,7 +11,7 @@ To add Clans as an dependency of your maven project you need to add the followin
 		</repository>
 		<repository>
 			<id>simonsators-repo</id>
-			<url>http://simonsator.de/repo</url>
+			<url>https://simonsator.de/repo</url>
 		</repository>
 	</repositories>
 	<dependencies>
